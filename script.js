@@ -255,25 +255,25 @@ document.addEventListener('DOMContentLoaded', () => {
         'bharatanatyam': `
             <h3 class="playfair" style="color:var(--secondary); margin-bottom: 20px;">Bharatanatyam Performances</h3>
             <div class="modal-gallery-grid">
-                <img src="./images/brt1.jpeg" alt="Bharatanatyam 1" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
-                <img src="./images/brt2.jpeg" alt="Bharatanatyam 2" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
-                <img src="./images/brt3.jpeg" alt="Bharatanatyam 3" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
+                <img src="brt1.jpeg" alt="Bharatanatyam 1" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
+                <img src="brt2.jpeg" alt="Bharatanatyam 2" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
+                <img src="brt3.jpeg" alt="Bharatanatyam 3" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
             </div>
         `,
         'miss-femina': `
             <h3 class="playfair" style="color:var(--secondary); margin-bottom: 20px;">Miss Femina</h3>
             <div class="modal-gallery-grid">
-                <img src="./images/femina4.jpeg" alt="Award Ceremony" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
-                <img src="./images/femina2.jpeg" alt="Ramp Walk" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
-                <img src="./images/femina1.jpeg" alt="Group Photo" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
+                <img src="femina4.jpeg" alt="Award Ceremony" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
+                <img src="femina2.jpeg" alt="Ramp Walk" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
+                <img src="femina1.jpeg" alt="Group Photo" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
             </div>
         `,
         'fashion-show': `
             <h3 class="playfair" style="color:var(--secondary); margin-bottom: 20px;">Fashion Show</h3>
             <div class="modal-gallery-grid">
-                <img src="./images/femina3.jpeg" alt="Fashion Show" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
-                <img src="./images/femina5.jpeg" alt="Fashion Show" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
-                <img src="./images/femina.jpeg" alt="Fashion Show Showcase" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
+                <img src="femina3.jpeg" alt="Fashion Show" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
+                <img src="femina5.jpeg" alt="Fashion Show" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
+                <img src="femina.jpeg" alt="Fashion Show Showcase" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; border: 1px solid var(--border);">
             </div>
         `,
         'modeling': `
