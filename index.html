@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mia Samson - Personal Portfolio</title>
+    <meta name="description"
+        content="Personal portfolio of Mia Samson, first-year B.Tech CSE student, highlighting academics, leadership, and performance arts.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo">Mia.</a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#leadership">Leadership</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-btn" class="theme-toggle">🌙</button>
+        </div>
+        <button class="hamburger">☰</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content reveal">
+            <span class="subtitle">First-year B.Tech CSE student</span>
+            <h1 class="playfair">Hi, I am <span>Mia Samson</span></h1>
+            <div class="typing-container">
+                <span id="typing-text" class="typing-text"></span><span class="cursor"></span>
+            </div>
+            <p class="hero-tagline">
+                Studying at St. Joseph’s College of Engineering and Technology, Palai. Passionate CSE student blending
+                technology, creativity, communication, and performance arts.
+            </p>
+            <div class="hero-btns">
+                <a href="#about" class="btn btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+                <a href="./images/Resume.pdf" download="Mia_Samson_Resume.pdf" target="_blank" class="btn btn-outline">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-alt">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+            <div class="about-image reveal">
+                <img src="./images/mia.jpeg" alt="Mia Samson">
+            </div>
+            <div class="about-content reveal">
+                <h3 class="playfair">Blending Technology with Creativity</h3>
+                <p>
+                    I am Mia Samson, a first-year Computer Science and Engineering (B.Tech) student studying at St.
+                    Joseph’s College of Engineering and Technology, Palai.
+                </p>
+                <p>
+                    I have strong communication and literature skills, and I am active in both technical and creative
+                    fields. Whether it is coding a new project or performing on stage, I pour my passion into everything
+                    I do.
+                </p>
+                <p>
+                    From professional performing arts to technical leadership, I am always seeking opportunities that
+                    challenge me. I am passionate about technology, leadership, dance, modeling, and public speaking.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title reveal">Skills & Expertise</h2>
+        <div class="skills-grid">
+            <!-- Technical skills -->
+            <div class="skill-category glass reveal">
+                <h3 class="playfair">Technical</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">C Programming</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Computer Science</span>
+                </div>
+            </div>
+
+            <!-- Soft skills -->
+            <div class="skill-category glass reveal">
+                <h3 class="playfair">Communication</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Strong Communication</span>
+                    <span class="skill-tag">Public Speaking</span>
+                    <span class="skill-tag">Literature Skills</span>
+                </div>
+            </div>
+
+            <!-- Creative skills -->
+            <div class="skill-category glass reveal">
+                <h3 class="playfair">Creative</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Bharatanatyam Dance</span>
+                    <span class="skill-tag">Modeling</span>
+                    <span class="skill-tag">Stage Presence</span>
+                    <span class="skill-tag">Fashion Presentation</span>
+                    <span class="skill-tag">Performance Confidence</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-alt">
+        <h2 class="section-title reveal">Projects & Bots</h2>
+        <div class="cards-grid">
+            <div class="info-card glass reveal">
+                <div class="role-date">School Canteen</div>
+                <h4 class="playfair">OrderBot</h4>
+                <p>An automated bot developed to streamline food ordering and management for students.</p>
+            </div>
+            <div class="info-card glass reveal">
+                <div class="role-date">Study Assistant</div>
+                <h4 class="playfair">QuizBot</h4>
+                <p>An interactive bot designed to assist students with their revision through automated quizzes.</p>
+            </div>
+            <div class="info-card glass reveal">
+                <div class="role-date">System Software</div>
+                <h4 class="playfair">Library Management System</h4>
+                <p>A comprehensive system to manage records, featuring an automated late fine calculation logic.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership & Roles -->
+    <section id="leadership" class="section">
+        <h2 class="section-title reveal">Leadership & Roles</h2>
+        <div class="cards-grid">
+            <div class="info-card glass reveal">
+                <div class="role-date">Current Position</div>
+                <h4 class="playfair">Secretary</h4>
+                <p>Computer Science Society of IEEE Student Branch.</p>
+            </div>
+            <div class="info-card glass reveal">
+                <div class="role-date">Current Member</div>
+                <h4 class="playfair">Member</h4>
+                <p>Ritoras Club, engaging in literature, speaking, and community activities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section bg-alt">
+        <h2 class="section-title reveal">Achievements & Experience</h2>
+        <div class="cards-grid">
+            <div class="info-card glass reveal">
+                <h4 class="playfair">Miss Femina</h4>
+                <p>Secured Second Prize in Miss Femina of the college.</p>
+            </div>
+            <div class="info-card glass reveal">
+                <h4 class="playfair">Fashion Show</h4>
+                <p>Secured Second Prize in Fashion Show.</p>
+            </div>
+            <div class="info-card glass reveal">
+                <h4 class="playfair">Bharatanatyam Dancer</h4>
+                <p>Professional Bharatanatyam dancer with years of rigorous training.</p>
+            </div>
+            <div class="info-card glass reveal">
+                <h4 class="playfair">Speaker of the Day</h4>
+                <p>Awarded Speaker of the Day in Ritoras Club.</p>
+            </div>
+            <div class="info-card glass reveal">
+                <h4 class="playfair">Competition Prizes</h4>
+                <p>Won prizes in multiple competitions across various domains.</p>
+            </div>
+            <div class="info-card glass reveal">
+                <h4 class="playfair">Modeling</h4>
+                <p>Experience in modeling and advertisement presentations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events & Workshops (Timeline) -->
+    <section id="events" class="section">
+        <h2 class="section-title reveal">Events & Workshops Attended</h2>
+        <div class="timeline">
+            <div class="timeline-item left reveal">
+                <div class="timeline-content">
+                    <h4 class="playfair">IEEE Tesseract</h4>
+                    <p>Participated in technical sessions and networked with professionals in the technology and
+                        engineering space.</p>
+                </div>
+            </div>
+            <div class="timeline-item right reveal">
+                <div class="timeline-content">
+                    <h4 class="playfair">ASME EFX</h4>
+                    <p>Attended specialized workshops focusing on engineering advancements and collaborative events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section bg-alt">
+        <h2 class="section-title reveal">Gallery</h2>
+        <div class="gallery-grid">
+            <!-- Replace these placeholder items with actual images later. Example:
+                 <img src="path/to/image.jpg" alt="Bharatanatyam Performance">
+            -->
+            <div class="gallery-item reveal" onclick="openGalleryModal('bharatanatyam')">
+                <img src="./images/brt1.jpeg" alt="Bharatanatyam Cover">
+                <div class="gallery-overlay" style="flex-direction: column;">
+                    <span>Bharatanatyam Performance</span>
+                    <small style="margin-top: 10px; color: var(--primary); font-family: 'Poppins', sans-serif; letter-spacing: 0.5px;">Click to see more</small>
+                </div>
+            </div>
+            <div class="gallery-item reveal" onclick="openGalleryModal('miss-femina')">
+                <img src="./images/femina4.jpeg" alt="Miss Femina Cover">
+                <div class="gallery-overlay" style="flex-direction: column;">
+                    <span>Miss Femina – Second Prize</span>
+                    <small style="margin-top: 10px; color: var(--primary); font-family: 'Poppins', sans-serif; letter-spacing: 0.5px;">Click to see more</small>
+                </div>
+            </div>
+            <div class="gallery-item reveal" onclick="openGalleryModal('fashion-show')">
+                <img src="./images/femina3.jpeg" alt="Fashion Show Cover">
+                <div class="gallery-overlay" style="flex-direction: column;">
+                    <span>Fashion Show – Second Prize</span>
+                    <small style="margin-top: 10px; color: var(--primary); font-family: 'Poppins', sans-serif; letter-spacing: 0.5px;">Click to see more</small>
+                </div>
+            </div>
+            <div class="gallery-item reveal" onclick="openGalleryModal('modeling')">
+                <div class="gallery-overlay"><span>Modeling & Advertisement</span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Gallery Modal -->
+    <div id="galleryModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeGalleryModal()">&times;</span>
+            <div id="modal-content-area"></div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-info reveal">
+                <h3 class="playfair">Let's Connect!</h3>
+                <p>Whether it's for a tech project, a creative collaboration, or just a quick chat, feel free to reach
+                    out.</p>
+
+                <div class="contact-item" style="margin-top: 30px;">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <strong>Location</strong><br>
+                        St. Joseph’s College, Palai
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">💼</div>
+                    <div>
+                        <strong>LinkedIn</strong><br>
+                        <a href="https://in.linkedin.com/in/mia-samson-81251b389" target="_blank"
+                            style="color: var(--text-muted); text-decoration: none;">linkedin.com/in/miasamson</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">📸</div>
+                    <div>
+                        <strong>Instagram</strong><br>
+                        <a href="https://www.instagram.com/mia_valiyaparambil?igsh=MWVkdXEzYjR4Z2lkbA==" target="_blank"
+                            style="color: var(--text-muted); text-decoration: none;">@mia_samson</a>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/miasamson" target="_blank" aria-label="LinkedIn">in</a>
+                    <a href="https://instagram.com/mia_samson" target="_blank" aria-label="Instagram">ig</a>
+                    <a href="mailto:email@example.com" aria-label="Email">✉️</a>
+                </div>
+            </div>
+
+            <div class="contact-form-container glass reveal">
+                <form id="contact-form" style="padding: 30px;">
+                    <div class="form-group">
+                        <label for="contact-name">Name</label>
+                        <input type="text" id="contact-name" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" class="form-control"
+                            placeholder="Write your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    <div id="contact-success" class="success-msg">Message sent successfully!</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Mia Samson. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" class="back-to-top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
